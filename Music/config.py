@@ -60,14 +60,3 @@ BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", "False"))
 
 SUDO_USERS.append("1209395963")
 OWNER_ID.append("1534983792")
-
-
-
-
-
-
-
-
-
-
-
