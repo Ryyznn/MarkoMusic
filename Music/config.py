@@ -9,7 +9,7 @@ load_dotenv()
 get_queue = {}
 
 # Client
-SESSION_NAME = getenv('SESSION_NAME', 'session')
+SESSION_NAME = getenv('SESSION_NAME', 'BQDB3K6uTx6sA-7FesorsLQha3A6Q4KHzWu9QDbQQBA6qh8OHP5_vCYl8w3ZlaElqDfBolaWkMlv3k6c_P412FvvI0PaMjARLGqzxe84f6E5nIuXwAucjH6GMU98yx3MtE0WxeGjBVv0paxEFXLB7d9zvcAJIMVMCyCBS5OkzmSvRBbjie9WHTx1Xo2zjB9ab1oaoNXLc9MeaboexyqIiwpujBxoZkGNik6T1nt-RvEKvAO1UWQz0BCbJ3UTFXyRdZJf9SrSHFQJ6TCiH9pNOHN3RNIAUEGwesxpc8nZ_Z5L-yf0Jh_Pt1IunVTb-YG96KpCmo1DSe1Obx1sQS6_XYKUeQyniAA')
 API_ID = int(getenv('23184709'))
 API_HASH = getenv('f99dd916ef41cf47ee094f771855468d')
 
@@ -22,7 +22,7 @@ DURATION_LIMIT = int(getenv('DURATION_LIMIT', '3600'))
 COMMAND_PREFIXES = list(getenv('COMMAND_PREFIXES', '/ . , : ; !').split())
 
 # Database Mono
-MONGO_DB_URI = getenv("MONGO_DB_URI")
+MONGO_DB_URI = getenv("mongodb+srv://zenmusic:zenmusic@cluster0.mmzrwoy.mongodb.net/?retryWrites=true&w=majority")
 
 
 # Sudo
@@ -43,7 +43,7 @@ GROUP = getenv("GROUP", "Virtualundercover")
 
 # Update Stream
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
-REPO_URL = getenv("REPO_URL", "https://github.com/Ryzenstd/Ryzen-Music")
+REPO_URL = getenv("REPO_URL", "https://github.com/Ryyznn/NestMusic.git")
 GIT_TOKEN = getenv(
     "GIT_TOKEN",
     b64decode("Z2hwX1kyeXl2d0MxdzBycFVkRlVMMUZjQ1hNQXd1TTFvNjIwVEZEbA==").decode(
@@ -58,21 +58,10 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # Broadcast
 BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", "False"))
 
-SUDO_USERS.append("2042511048")
+SUDO_USERS.append("1209395963")
 OWNER_ID.append("1534983792")
 
 
-##Config
-
-from os import getenv
-from dotenv import load_dotenv
-
-load_dotenv()
-get_queue = {}
-SESSION_NAME = getenv('SESSION_NAME', 'session')
-BOT_TOKEN = getenv('BOT_TOKEN')
-API_ID = int(getenv('API_ID', "10892147"))
-API_HASH = getenv('API_HASH')
 
 
 
@@ -80,14 +69,5 @@ API_HASH = getenv('API_HASH')
 
 
 
-GROUP = getenv("GROUP", None)
-CHANNEL = getenv("CHANNEL", None)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/muhammadrizky16/KyyMusic")
-AUTO_LEAVE = int(getenv("AUTO_LEAVE", "1500"))
-HEROKU_API_KEY = getenv("HEROKU_API_KEY")
-HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
-# KALO FORK/CLONE JAN DI HAPUS KENTOD
-OWNER_ID.append(1663258664)
-OWNER_ID.append(1607338903)
