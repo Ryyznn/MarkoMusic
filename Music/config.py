@@ -9,40 +9,40 @@ load_dotenv()
 get_queue = {}
 
 # Client
-SESSION_NAME = getenv('SESSION_NAME', 'session')
-API_ID = int(getenv('API_ID', "10892147"))
-API_HASH = getenv('API_HASH')
+SESSION_NAME = getenv('SESSION_NAME', 'BQDB3K6uTx6sA-7FesorsLQha3A6Q4KHzWu9QDbQQBA6qh8OHP5_vCYl8w3ZlaElqDfBolaWkMlv3k6c_P412FvvI0PaMjARLGqzxe84f6E5nIuXwAucjH6GMU98yx3MtE0WxeGjBVv0paxEFXLB7d9zvcAJIMVMCyCBS5OkzmSvRBbjie9WHTx1Xo2zjB9ab1oaoNXLc9MeaboexyqIiwpujBxoZkGNik6T1nt-RvEKvAO1UWQz0BCbJ3UTFXyRdZJf9SrSHFQJ6TCiH9pNOHN3RNIAUEGwesxpc8nZ_Z5L-yf0Jh_Pt1IunVTb-YG96KpCmo1DSe1Obx1sQS6_XYKUeQyniAA')
+API_ID = int(getenv('API_ID', "21556279"))
+API_HASH = getenv('5780184547:AAHOmXLxwrJ6oWaHnWO_TqwwJvjVYE0Qgco')
 
 # Bot
-BOT_USERNAME = getenv('ryznmusicbot')
-BOT_TOKEN = getenv('BOT_TOKEN')
+BOT_USERNAME = getenv('Zennmusic_bot')
+BOT_TOKEN = getenv('5780184547:AAHOmXLxwrJ6oWaHnWO_TqwwJvjVYE0Qgco')
 
 # Music Setting
-DURATION_LIMIT = int(getenv('DURATION_LIMIT', '3600'))
+DURATION_LIMIT = int(getenv('DURATION_LIMIT', '9000'))
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", '/ . , : ; !').split())
 
 # Database Mono
-MONGO_DB_URI = getenv("MONGO_DB_URI")
+MONGO_DB_URI = getenv("mongodb+srv://zenmusic:zenmusic@cluster0.mmzrwoy.mongodb.net/?retryWrites=true&w=majority")
 
 # Sudo
-SUDO_USERS = list(map(int, getenv('SUDO_USERS', '1663258664').split()))
-OWNER_ID = list(map(int, getenv('OWNER_ID', '1663258664').split()))
+SUDO_USERS = list(map(int, getenv('SUDO_USERS', '1209395963 1784179805').split()))
+OWNER_ID = list(map(int, getenv('OWNER_ID', '1534983792').split()))
 
 # Log Chat
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", '-1001288822269'))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", '-1001836093985'))
 LOG_CHANNEL_ID = int(getenv("LOG_CHANNEL_ID", '-1001844138965'))
 
 # Assistant
-ASS_ID = int(getenv("ASS_ID", '2130437611'))
+ASS_ID = int(getenv("ASS_ID", '2030872456'))
 AUTO_LEAVE = int(getenv("AUTO_LEAVE", "9000"))
 
 # Support Channel
-CHANNEL = getenv("CHANNEL", None)
+CHANNEL = getenv("CHANNEL", 'Zennsupport)
 GROUP = getenv("GROUP", None)
 
 # Update Stream
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/muhammadrizky16/KyyMusic")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Ryyznn/NestMusic.git")
 
 # Heroku
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
