@@ -25,7 +25,7 @@ COMMAND_PREFIXES = list(getenv('COMMAND_PREFIXES', '/ . , : ; !').split())
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://ilem:ilem@cluster0.uewtgbl.mongodb.net/?retryWrites=true&w=majority")
 
 # Sudo
-SUDO_USERS = list(map(int, getenv('SUDO_USERS', '1784179805').split()))
+SUDO_USERS = list(map(int, getenv('SUDO_USERS', '5641751214').split()))
 OWNER_ID = list(map(int, getenv('OWNER_ID', '1784179805').split()))
 
 # Log Chat
