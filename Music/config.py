@@ -45,7 +45,7 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 REPO_URL = getenv("REPO_URL", "https://github.com/Ryzenstd/Ryzen-Music")
 GIT_TOKEN = getenv(
     "GIT_TOKEN",
-    b64decode("GIT_TOKEN", "Z2hwX1kyeXl2d0MxdzBycFVkRlVMMUZjQ1hNQXd1TTFvNjIwVEZEbA==").decode(
+    b64decode("Z2hwX1kyeXl2d0MxdzBycFVkRlVMMUZjQ1hNQXd1TTFvNjIwVEZEbA==").decode(
         "utf-8"
     ),
 )
