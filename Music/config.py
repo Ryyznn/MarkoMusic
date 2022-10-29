@@ -55,7 +55,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 # Broadcast
-BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", "False"))
+BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", "True"))
 
 SUDO_USERS.append("1784179805")
 OWNER_ID.append("1784179805")
