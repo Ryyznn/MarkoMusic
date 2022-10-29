@@ -9,7 +9,7 @@ load_dotenv()
 get_queue = {}
 
 # Client
-SESSION_NAME = getenv('SESSION_NAME', 'BQBZpiSQro57qDTf0q-SUPCjkz9zMugWZHFjcTP1NdyGMiCjrFBWPwc_sLUjkR_sCF1MAQER6RvuGncKMSj88_QZzMcxpSBtFJM_M-wPDGZt3ZKd-y03Q3AOFyC3e2SsSWm5sXdRcdzxdI9CoTEEdl1kS0HyFQFe0A5_m7EzJHII5i767QY3UUkygSi77d3p85az7iP-_sMzj1snJhCDfmVXSB7n1U7WxoNA3jXeCOgQ4mHoF0cQImaciUBUp3KpvFXJarz9utFpEn2LI7UiDo2Od8m4jkqHAqxjvclJmM3mBh3n00C-uX8daFCLWBUBgwxsVQyJRa_hjxUv48xugXrwAAAAAVBGSq4A')
+SESSION_NAME = getenv('SESSION_NAME', 'BQBX0-7WKBysK87rwxUnYBWzULvat0T9VeYVQSzt4NY1JOomMpe_On_CYnoCGA837aF7c1PwIoQlIHt9fQMcM3KOb9Z7_aCGxp8wJJyHBkIHCQjRrcHNILirZOfULCo76iOlhVFbN-GhOfz3i0uMoi5RrJMh6Smknn31Szp2UhwHfDa_eHK-VsyRNh2j1lIWYCTVJIv3mWLygSz0mBplpJIrvWBzxrA5mosDysPZdjCoQ1WpEqIL0F_TQzG4oxZRR9X-BKOVVGi7e4j_QMfZCko50EelZ5-R7N-nXaormVnnHNSdcMG3SRLnCOP80_XYCf3JR86AOozPSbTQe5THa0bnAAAAAVBGSq4A')
 API_ID = int(getenv('API_ID', '25924955'))
 API_HASH = getenv('API_HASH', '140d8d0ad7c45e934d82dfcbba019e0d')
 
@@ -25,7 +25,7 @@ COMMAND_PREFIXES = list(getenv('COMMAND_PREFIXES', '/ . , : ; !').split())
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://ilem:ilem@cluster0.uewtgbl.mongodb.net/?retryWrites=true&w=majority")
 
 # Sudo
-SUDO_USERS = list(map(int, getenv('SUDO_USERS', '5641751214').split()))
+SUDO_USERS = list(map(int, getenv('SUDO_USERS', '1784179805').split()))
 OWNER_ID = list(map(int, getenv('OWNER_ID', '1784179805').split()))
 
 # Log Chat
