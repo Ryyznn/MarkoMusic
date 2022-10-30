@@ -9,20 +9,20 @@ load_dotenv()
 get_queue = {}
 
 # Client
-SESSION_NAME = getenv('SESSION_NAME', 'BQDB3K6uTx6sA-7FesorsLQha3A6Q4KHzWu9QDbQQBA6qh8OHP5_vCYl8w3ZlaElqDfBolaWkMlv3k6c_P412FvvI0PaMjARLGqzxe84f6E5nIuXwAucjH6GMU98yx3MtE0WxeGjBVv0paxEFXLB7d9zvcAJIMVMCyCBS5OkzmSvRBbjie9WHTx1Xo2zjB9ab1oaoNXLc9MeaboexyqIiwpujBxoZkGNik6T1nt-RvEKvAO1UWQz0BCbJ3UTFXyRdZJf9SrSHFQJ6TCiH9pNOHN3RNIAUEGwesxpc8nZ_Z5L-yf0Jh_Pt1IunVTb-YG96KpCmo1DSe1Obx1sQS6_XYKUeQyniAA')
-API_ID = int(getenv('API_ID', '22257092'))
-API_HASH = getenv('API_HASH', '45e109bc6c0121c9544045a20ff9d542')
+SESSION_NAME = getenv('SESSION_NAME', 'BQApymvEihSArb-elRYwkLACQ5VV7p7YtxiNnX_JGtGK3Gd-dgBDvhpx1pUQJjWAvR2SuNXeGMLBxV5NbZKmRJJud9IVhWFNu_zOjWByKDqHE4A2k9yqL7Kcz6GrWBYT7HNxtqQ651wjOaCB3YmgCMQBkODVhA9mCHCVo8M8_p-YOB15bXUNe98eOK33gwXXaE3_HIGtx9EY9M5C6Oiq4OycEcsVm3L_kVVU_n9RkkPoEfz_dXxjSPXfMZ1RISRrTBjGRO6qZUzLAOQb7zPdcWkGUEE4eVwkrK8POLzdHVXGD1d59s937K9n1RlBFSflyxRIIscg0x02jP977NFEbHAheb4-yAA')
+API_ID = int(getenv('API_ID', '23184709'))
+API_HASH = getenv('API_HASH', 'f99dd916ef41cf47ee094f771855468d')
 
 # Bot
 BOT_USERNAME = getenv("BOT_USERNAME", "ryzenmusicbot")
 BOT_TOKEN = getenv('BOT_TOKEN', '5561364640:AAGkgktSUqzaQ_Fubfv6Xp0nzIoESQdiLBA')
 
 # Music Setting
-DURATION_LIMIT = int(getenv('DURATION_LIMIT', '3600'))
+DURATION_LIMIT = int(getenv('DURATION_LIMIT', '5600'))
 COMMAND_PREFIXES = list(getenv('COMMAND_PREFIXES', '/ . , : ; !').split())
 
 # Database Mono
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://zenmusic:zenmusic@cluster0.mmzrwoy.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://anest:anest@cluster0.osfukxh.mongodb.net/?retryWrites=true&w=majority")
 
 # Sudo
 SUDO_USERS = list(map(int, getenv('SUDO_USERS', '1209395963').split()))
@@ -34,7 +34,7 @@ LOG_CHANNEL_ID = int(getenv("LOG_CHANNEL_ID", "-1001844138965"))
 
 # Assistant
 ASS_ID = int(getenv("ASS_ID", "2030872456"))
-AUTO_LEAVE = int(getenv("AUTO_LEAVE", "9000"))
+AUTO_LEAVE = int(getenv("AUTO_LEAVE", "1500"))
 
 # Support Channel
 CHANNEL = getenv("CHANNEL", None)
