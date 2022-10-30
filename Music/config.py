@@ -42,7 +42,7 @@ GROUP = getenv("GROUP", None)
 
 # Update Stream
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
-REPO_URL = getenv("REPO_URL", "https://github.com/Ryzenstd/Ryzen-Music")
+REPO_URL = getenv("REPO_URL", "https://github.com/muhammadrizky16/KyyMusic")
 GIT_TOKEN = getenv(
     "GIT_TOKEN",
     b64decode("Z2hwX1kyeXl2d0MxdzBycFVkRlVMMUZjQ1hNQXd1TTFvNjIwVEZEbA==").decode(
