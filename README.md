@@ -1,8 +1,9 @@
-<h2 align="centre">Ryzen Music Player</h2>
-
+<h2 align="center">
+  <b>Ryzen Music Player</b>
+<h4>
 <p align="center">
   <img src="https://telegra.ph//file/f862d1c60800308f7a26f.jpg">
-</p>
+<h4>
 
 <h3>Requirements 📝</h3>
 
@@ -39,9 +40,6 @@
 ## String Session :
 [![GenerateStringName](https://img.shields.io/badge/repl.it-generateStringName-white)](https://replit.com/@rizkyhmdanii16/StringSession)
 
-### Deploy on Heroku
-The easy way to host this bot, deploy to Heroku, Change the app country to Europe (it will help to make the bot stable).</br></br>
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Ryzennnn/Ryzen-Music)</br>
 
 ## Credits
 
