@@ -2,7 +2,7 @@
   <b>Ryzen Music Player</b>
 <h4>
 <p align="center">
-  <img src="https://telegra.ph//file/686b3a037916d4717520e.jpg">
+  <img src="https://telegra.ph//file/8702c04a0ae056ae27027.jpg">
 <h4>
 
 <h3>Requirements 📝</h3>
