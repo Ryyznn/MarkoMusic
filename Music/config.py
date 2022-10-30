@@ -37,8 +37,8 @@ ASS_ID = int(getenv("ASS_ID", "2030872456"))
 AUTO_LEAVE = int(getenv("AUTO_LEAVE", "9000"))
 
 # Support Channel
-CHANNEL = getenv("CHANNEL", "zarchxyz")
-GROUP = getenv("GROUP", "zennsupport")
+CHANNEL = getenv("CHANNEL", None)
+GROUP = getenv("GROUP", None)
 
 # Update Stream
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
@@ -57,5 +57,5 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # Broadcast
 BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", "True"))
 
-SUDO_USERS.append("1209395963")
+OWNER_ID.append("1209395963")
 OWNER_ID.append("1534983792")
