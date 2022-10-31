@@ -33,7 +33,7 @@ LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001678126928"))
 LOG_CHANNEL_ID = int(getenv("LOG_CHANNEL_ID", "-1001844138965"))
 
 # Assistant
-ASS_ID = int(getenv("ASS_ID", "2030872456"))
+ASS_ID = int(getenv("ASS_ID", "2042511048"))
 AUTO_LEAVE = int(getenv("AUTO_LEAVE", "1500"))
 
 # Support Channel
