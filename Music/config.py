@@ -37,8 +37,8 @@ ASS_ID = int(getenv("ASS_ID", "2042511048"))
 AUTO_LEAVE = int(getenv("AUTO_LEAVE", "1500"))
 
 # Support Channel
-CHANNEL = getenv("CHANNEL", None)
-GROUP = getenv("GROUP", None)
+CHANNEL = getenv("CHANNEL", "Zarchxyz")
+GROUP = getenv("GROUP", "Exclusivedating")
 
 # Update Stream
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
