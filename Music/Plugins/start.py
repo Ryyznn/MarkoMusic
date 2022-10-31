@@ -124,7 +124,7 @@ Untuk bantuan silahkan klik tombol dibawah.
     return
 
 
-@Client.on_message(filters.private & filters.incoming & filters.command("xstart"))
+@Client.on_message(filters.private & filters.incoming & filters.command("start"))
 async def play(_, message: Message):
     if len(message.command) == 1:
         user_id = message.from_user.id
